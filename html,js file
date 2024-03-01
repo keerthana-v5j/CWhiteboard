@@ -1,0 +1,11 @@
+the cursor move option
+   <style>
+      #canvas {
+	cursor: crosshair;
+    position: fixed;
+}
+    </style> 
+
+ctx.lineWidth = 10;//this is particular linewidth
+let lineThickness = 2;
+ctx.strokeStyle = "blue";
